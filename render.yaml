@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gravemark-reference
+    runtime: python
+    buildCommand: pip install .
+    startCommand: PYTHONPATH=src python demo_server.py
+    healthCheckPath: /api/health
