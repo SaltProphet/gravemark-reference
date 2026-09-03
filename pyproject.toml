@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gravemark-reference"
+version = "0.1.0"
+description = "Small deterministic reference implementation of Gravemark's evidence pipeline"
+requires-python = ">=3.10"
+dependencies = ["spacy>=3.7,<4"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

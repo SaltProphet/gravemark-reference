@@ -1,0 +1,12 @@
+[
+  {"source_id":"operations_001","source_type":"fixture","label":"Operations complaint 1","text":"We cannot close the books without a manual fix in Excel.","provenance":{"fixture":"operations_complaints.json","record":"1"}},
+  {"source_id":"operations_002","source_type":"fixture","label":"Operations complaint 2","text":"The approval workflow is confusing and takes too long.","provenance":{"fixture":"operations_complaints.json","record":"2"}},
+  {"source_id":"operations_003","source_type":"fixture","label":"Operations complaint 3","text":"Staff are forced to manually reconcile the same invoices.","provenance":{"fixture":"operations_complaints.json","record":"3"}},
+  {"source_id":"operations_004","source_type":"fixture","label":"Operations complaint 4","text":"The spreadsheet breaks when multiple teams edit it.","provenance":{"fixture":"operations_complaints.json","record":"4"}},
+  {"source_id":"operations_005","source_type":"fixture","label":"Operations complaint 5","text":"We waste hours searching for the latest version of a report.","provenance":{"fixture":"operations_complaints.json","record":"5"}},
+  {"source_id":"operations_006","source_type":"fixture","label":"Operations complaint 6","text":"I hate when a temporary workaround becomes the permanent process.","provenance":{"fixture":"operations_complaints.json","record":"6"}},
+  {"source_id":"operations_007","source_type":"fixture","label":"Operations complaint 7","text":"The process fails every single time a vendor changes its format.","provenance":{"fixture":"operations_complaints.json","record":"7"}},
+  {"source_id":"operations_008","source_type":"fixture","label":"Operations complaint 8","text":"No one has solved the repeated data entry problem.","provenance":{"fixture":"operations_complaints.json","record":"8"}},
+  {"source_id":"operations_009","source_type":"fixture","label":"Operations complaint 9","text":"The API error is costing us time and losing records.","provenance":{"fixture":"operations_complaints.json","record":"9"}},
+  {"source_id":"operations_010","source_type":"fixture","label":"Operations complaint 10","text":"I would pay for a clearer reconciliation process because the current one is difficult.","provenance":{"fixture":"operations_complaints.json","record":"10"}}
+]

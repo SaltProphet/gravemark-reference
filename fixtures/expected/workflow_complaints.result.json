@@ -1,0 +1,774 @@
+{
+  "candidate_findings": [
+    {
+      "finding_id": "finding_001_ev_workflow_009_000_INTENT_HATE",
+      "rank": 1,
+      "score": 5.98,
+      "score_factors": {
+        "average_evidence_score": 5.98,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_009_000_INTENT_HATE"
+      ],
+      "title_or_label": "INTENT_HATE: I would pay for a reliable lead handoff because this is infuriating.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_002_ev_workflow_007_000_INTENT_HATE",
+      "rank": 2,
+      "score": 5.96,
+      "score_factors": {
+        "average_evidence_score": 5.96,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_007_000_INTENT_HATE"
+      ],
+      "title_or_label": "INTENT_HATE: I hate when a manual fix is needed for every export.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_003_ev_workflow_006_000_IMPACT_LOSS",
+      "rank": 3,
+      "score": 5.08,
+      "score_factors": {
+        "average_evidence_score": 5.08,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_006_000_IMPACT_LOSS"
+      ],
+      "title_or_label": "IMPACT_LOSS: We are losing customers because reminders fail without warning.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_004_ev_workflow_010_000_AUX_NEG",
+      "rank": 4,
+      "score": 5.04,
+      "score_factors": {
+        "average_evidence_score": 5.04,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_010_000_AUX_NEG"
+      ],
+      "title_or_label": "AUX_NEG: The API error means we cannot reconcile the daily report.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_005_ev_workflow_010_000_VERB_FAIL",
+      "rank": 5,
+      "score": 4.42,
+      "score_factors": {
+        "average_evidence_score": 4.42,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_010_000_VERB_FAIL"
+      ],
+      "title_or_label": "VERB_FAIL: The API error means we cannot reconcile the daily report.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_006_ev_workflow_004_000_AUX_NEG",
+      "rank": 6,
+      "score": 4.37,
+      "score_factors": {
+        "average_evidence_score": 4.37,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_004_000_AUX_NEG"
+      ],
+      "title_or_label": "AUX_NEG: I cannot see which leads were contacted and the workaround wastes hours.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_007_ev_workflow_004_000_WORKAROUND",
+      "rank": 7,
+      "score": 4.08,
+      "score_factors": {
+        "average_evidence_score": 4.08,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_004_000_WORKAROUND"
+      ],
+      "title_or_label": "WORKAROUND: I cannot see which leads were contacted and the workaround wastes hours.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_008_ev_workflow_007_000_WORKAROUND",
+      "rank": 8,
+      "score": 4.06,
+      "score_factors": {
+        "average_evidence_score": 4.06,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_007_000_WORKAROUND"
+      ],
+      "title_or_label": "WORKAROUND: I hate when a manual fix is needed for every export.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_009_ev_workflow_008_000_NO_SOLUTION",
+      "rank": 9,
+      "score": 3.98,
+      "score_factors": {
+        "average_evidence_score": 3.98,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_008_000_NO_SOLUTION"
+      ],
+      "title_or_label": "NO_SOLUTION: The integration is hard to configure and there is still no good retry flow.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_010_ev_workflow_003_000_TIME_WASTE",
+      "rank": 10,
+      "score": 3.84,
+      "score_factors": {
+        "average_evidence_score": 3.84,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_003_000_TIME_WASTE"
+      ],
+      "title_or_label": "TIME_WASTE: Follow-up takes too long when the spreadsheet is very slow.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_011_ev_workflow_002_000_VERB_FAIL",
+      "rank": 11,
+      "score": 3.82,
+      "score_factors": {
+        "average_evidence_score": 3.82,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_002_000_VERB_FAIL"
+      ],
+      "title_or_label": "VERB_FAIL: Our webhook fails and the team is forced to manually retry the same job.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_012_ev_workflow_005_000_VERB_FAIL",
+      "rank": 12,
+      "score": 3.77,
+      "score_factors": {
+        "average_evidence_score": 3.77,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_005_000_VERB_FAIL"
+      ],
+      "title_or_label": "VERB_FAIL: The automation crashes every single time a duplicate contact arrives.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_013_ev_workflow_006_000_VERB_FAIL",
+      "rank": 13,
+      "score": 3.76,
+      "score_factors": {
+        "average_evidence_score": 3.76,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_006_000_VERB_FAIL"
+      ],
+      "title_or_label": "VERB_FAIL: We are losing customers because reminders fail without warning.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_014_ev_workflow_005_000_REPETITIVE",
+      "rank": 14,
+      "score": 3.25,
+      "score_factors": {
+        "average_evidence_score": 3.25,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_005_000_REPETITIVE"
+      ],
+      "title_or_label": "REPETITIVE: The automation crashes every single time a duplicate contact arrives.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_015_ev_workflow_001_000_VERB_ADV",
+      "rank": 15,
+      "score": 3.18,
+      "score_factors": {
+        "average_evidence_score": 3.18,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_001_000_VERB_ADV"
+      ],
+      "title_or_label": "VERB_ADV: The intake form is confusing and we have to repeatedly copy leads into the CRM.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_016_ev_workflow_002_000_VERB_ADV",
+      "rank": 16,
+      "score": 3.17,
+      "score_factors": {
+        "average_evidence_score": 3.17,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_002_000_VERB_ADV"
+      ],
+      "title_or_label": "VERB_ADV: Our webhook fails and the team is forced to manually retry the same job.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_017_ev_workflow_001_000_ADJ_DIFFICULTY",
+      "rank": 17,
+      "score": 2.37,
+      "score_factors": {
+        "average_evidence_score": 2.37,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_001_000_ADJ_DIFFICULTY"
+      ],
+      "title_or_label": "ADJ_DIFFICULTY: The intake form is confusing and we have to repeatedly copy leads into the CRM.",
+      "validation_required": true
+    },
+    {
+      "finding_id": "finding_018_ev_workflow_008_000_ADJ_DIFFICULTY",
+      "rank": 18,
+      "score": 2.35,
+      "score_factors": {
+        "average_evidence_score": 2.35,
+        "evidence_count": 1,
+        "frequency_bonus": 0.0
+      },
+      "supporting_evidence_ids": [
+        "ev_workflow_008_000_ADJ_DIFFICULTY"
+      ],
+      "title_or_label": "ADJ_DIFFICULTY: The integration is hard to configure and there is still no good retry flow.",
+      "validation_required": true
+    }
+  ],
+  "detected_evidence": [
+    {
+      "deterministic_score": 3.18,
+      "end_char": 79,
+      "evidence_id": "ev_workflow_001_000_VERB_ADV",
+      "matched_terms": [
+        "have to repeatedly"
+      ],
+      "pattern_id": "VERB_ADV",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "1"
+      },
+      "quote": "The intake form is confusing and we have to repeatedly copy leads into the CRM.",
+      "sentence_index": 0,
+      "source_id": "workflow_001",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 2.37,
+      "end_char": 79,
+      "evidence_id": "ev_workflow_001_000_ADJ_DIFFICULTY",
+      "matched_terms": [
+        "confusing"
+      ],
+      "pattern_id": "ADJ_DIFFICULTY",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "1"
+      },
+      "quote": "The intake form is confusing and we have to repeatedly copy leads into the CRM.",
+      "sentence_index": 0,
+      "source_id": "workflow_001",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.82,
+      "end_char": 72,
+      "evidence_id": "ev_workflow_002_000_VERB_FAIL",
+      "matched_terms": [
+        "fail"
+      ],
+      "pattern_id": "VERB_FAIL",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "2"
+      },
+      "quote": "Our webhook fails and the team is forced to manually retry the same job.",
+      "sentence_index": 0,
+      "source_id": "workflow_002",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.17,
+      "end_char": 72,
+      "evidence_id": "ev_workflow_002_000_VERB_ADV",
+      "matched_terms": [
+        "forced to manually"
+      ],
+      "pattern_id": "VERB_ADV",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "2"
+      },
+      "quote": "Our webhook fails and the team is forced to manually retry the same job.",
+      "sentence_index": 0,
+      "source_id": "workflow_002",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.84,
+      "end_char": 59,
+      "evidence_id": "ev_workflow_003_000_TIME_WASTE",
+      "matched_terms": [
+        "takes too long",
+        "very slow"
+      ],
+      "pattern_id": "TIME_WASTE",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "3"
+      },
+      "quote": "Follow-up takes too long when the spreadsheet is very slow.",
+      "sentence_index": 0,
+      "source_id": "workflow_003",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 4.37,
+      "end_char": 72,
+      "evidence_id": "ev_workflow_004_000_AUX_NEG",
+      "matched_terms": [
+        "cannot"
+      ],
+      "pattern_id": "AUX_NEG",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "4"
+      },
+      "quote": "I cannot see which leads were contacted and the workaround wastes hours.",
+      "sentence_index": 0,
+      "source_id": "workflow_004",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 4.08,
+      "end_char": 72,
+      "evidence_id": "ev_workflow_004_000_WORKAROUND",
+      "matched_terms": [
+        "workaround"
+      ],
+      "pattern_id": "WORKAROUND",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "4"
+      },
+      "quote": "I cannot see which leads were contacted and the workaround wastes hours.",
+      "sentence_index": 0,
+      "source_id": "workflow_004",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.77,
+      "end_char": 69,
+      "evidence_id": "ev_workflow_005_000_VERB_FAIL",
+      "matched_terms": [
+        "crash"
+      ],
+      "pattern_id": "VERB_FAIL",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "5"
+      },
+      "quote": "The automation crashes every single time a duplicate contact arrives.",
+      "sentence_index": 0,
+      "source_id": "workflow_005",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.25,
+      "end_char": 69,
+      "evidence_id": "ev_workflow_005_000_REPETITIVE",
+      "matched_terms": [
+        "every single time"
+      ],
+      "pattern_id": "REPETITIVE",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "5"
+      },
+      "quote": "The automation crashes every single time a duplicate contact arrives.",
+      "sentence_index": 0,
+      "source_id": "workflow_005",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.76,
+      "end_char": 63,
+      "evidence_id": "ev_workflow_006_000_VERB_FAIL",
+      "matched_terms": [
+        "fail"
+      ],
+      "pattern_id": "VERB_FAIL",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "6"
+      },
+      "quote": "We are losing customers because reminders fail without warning.",
+      "sentence_index": 0,
+      "source_id": "workflow_006",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 5.08,
+      "end_char": 63,
+      "evidence_id": "ev_workflow_006_000_IMPACT_LOSS",
+      "matched_terms": [
+        "losing"
+      ],
+      "pattern_id": "IMPACT_LOSS",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "6"
+      },
+      "quote": "We are losing customers because reminders fail without warning.",
+      "sentence_index": 0,
+      "source_id": "workflow_006",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 4.06,
+      "end_char": 52,
+      "evidence_id": "ev_workflow_007_000_WORKAROUND",
+      "matched_terms": [
+        "manual fix"
+      ],
+      "pattern_id": "WORKAROUND",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "7"
+      },
+      "quote": "I hate when a manual fix is needed for every export.",
+      "sentence_index": 0,
+      "source_id": "workflow_007",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 5.96,
+      "end_char": 52,
+      "evidence_id": "ev_workflow_007_000_INTENT_HATE",
+      "matched_terms": [
+        "hate when"
+      ],
+      "pattern_id": "INTENT_HATE",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "7"
+      },
+      "quote": "I hate when a manual fix is needed for every export.",
+      "sentence_index": 0,
+      "source_id": "workflow_007",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 2.35,
+      "end_char": 75,
+      "evidence_id": "ev_workflow_008_000_ADJ_DIFFICULTY",
+      "matched_terms": [
+        "hard to"
+      ],
+      "pattern_id": "ADJ_DIFFICULTY",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "8"
+      },
+      "quote": "The integration is hard to configure and there is still no good retry flow.",
+      "sentence_index": 0,
+      "source_id": "workflow_008",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 3.98,
+      "end_char": 75,
+      "evidence_id": "ev_workflow_008_000_NO_SOLUTION",
+      "matched_terms": [
+        "still no good"
+      ],
+      "pattern_id": "NO_SOLUTION",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "8"
+      },
+      "quote": "The integration is hard to configure and there is still no good retry flow.",
+      "sentence_index": 0,
+      "source_id": "workflow_008",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 5.98,
+      "end_char": 68,
+      "evidence_id": "ev_workflow_009_000_INTENT_HATE",
+      "matched_terms": [
+        "infuriating"
+      ],
+      "pattern_id": "INTENT_HATE",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "9"
+      },
+      "quote": "I would pay for a reliable lead handoff because this is infuriating.",
+      "sentence_index": 0,
+      "source_id": "workflow_009",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 5.04,
+      "end_char": 57,
+      "evidence_id": "ev_workflow_010_000_AUX_NEG",
+      "matched_terms": [
+        "cannot"
+      ],
+      "pattern_id": "AUX_NEG",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "10"
+      },
+      "quote": "The API error means we cannot reconcile the daily report.",
+      "sentence_index": 0,
+      "source_id": "workflow_010",
+      "start_char": 0
+    },
+    {
+      "deterministic_score": 4.42,
+      "end_char": 57,
+      "evidence_id": "ev_workflow_010_000_VERB_FAIL",
+      "matched_terms": [
+        "error"
+      ],
+      "pattern_id": "VERB_FAIL",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "10"
+      },
+      "quote": "The API error means we cannot reconcile the daily report.",
+      "sentence_index": 0,
+      "source_id": "workflow_010",
+      "start_char": 0
+    }
+  ],
+  "deterministic_metadata": {
+    "pattern_registry": [
+      "AUX_NEG",
+      "VERB_FAIL",
+      "WORKAROUND",
+      "VERB_ADV",
+      "TIME_WASTE",
+      "ADJ_DIFFICULTY",
+      "INTENT_HATE",
+      "WTP_EXPLICIT",
+      "IMPACT_LOSS",
+      "NO_SOLUTION",
+      "REPETITIVE"
+    ],
+    "pipeline_version": "gravemark-reference-0.1",
+    "scoring_rule": "legacy_gravity_average_plus_frequency_bonus"
+  },
+  "normalized_sentences": [
+    {
+      "end_char": 79,
+      "sentence_index": 0,
+      "source_id": "workflow_001",
+      "start_char": 0,
+      "text": "The intake form is confusing and we have to repeatedly copy leads into the CRM."
+    },
+    {
+      "end_char": 72,
+      "sentence_index": 0,
+      "source_id": "workflow_002",
+      "start_char": 0,
+      "text": "Our webhook fails and the team is forced to manually retry the same job."
+    },
+    {
+      "end_char": 59,
+      "sentence_index": 0,
+      "source_id": "workflow_003",
+      "start_char": 0,
+      "text": "Follow-up takes too long when the spreadsheet is very slow."
+    },
+    {
+      "end_char": 72,
+      "sentence_index": 0,
+      "source_id": "workflow_004",
+      "start_char": 0,
+      "text": "I cannot see which leads were contacted and the workaround wastes hours."
+    },
+    {
+      "end_char": 69,
+      "sentence_index": 0,
+      "source_id": "workflow_005",
+      "start_char": 0,
+      "text": "The automation crashes every single time a duplicate contact arrives."
+    },
+    {
+      "end_char": 63,
+      "sentence_index": 0,
+      "source_id": "workflow_006",
+      "start_char": 0,
+      "text": "We are losing customers because reminders fail without warning."
+    },
+    {
+      "end_char": 52,
+      "sentence_index": 0,
+      "source_id": "workflow_007",
+      "start_char": 0,
+      "text": "I hate when a manual fix is needed for every export."
+    },
+    {
+      "end_char": 75,
+      "sentence_index": 0,
+      "source_id": "workflow_008",
+      "start_char": 0,
+      "text": "The integration is hard to configure and there is still no good retry flow."
+    },
+    {
+      "end_char": 68,
+      "sentence_index": 0,
+      "source_id": "workflow_009",
+      "start_char": 0,
+      "text": "I would pay for a reliable lead handoff because this is infuriating."
+    },
+    {
+      "end_char": 57,
+      "sentence_index": 0,
+      "source_id": "workflow_010",
+      "start_char": 0,
+      "text": "The API error means we cannot reconcile the daily report."
+    }
+  ],
+  "sources": [
+    {
+      "label": "Workflow complaint 1",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "1"
+      },
+      "source_id": "workflow_001",
+      "source_type": "fixture",
+      "text": "The intake form is confusing and we have to repeatedly copy leads into the CRM."
+    },
+    {
+      "label": "Workflow complaint 2",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "2"
+      },
+      "source_id": "workflow_002",
+      "source_type": "fixture",
+      "text": "Our webhook fails and the team is forced to manually retry the same job."
+    },
+    {
+      "label": "Workflow complaint 3",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "3"
+      },
+      "source_id": "workflow_003",
+      "source_type": "fixture",
+      "text": "Follow-up takes too long when the spreadsheet is very slow."
+    },
+    {
+      "label": "Workflow complaint 4",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "4"
+      },
+      "source_id": "workflow_004",
+      "source_type": "fixture",
+      "text": "I cannot see which leads were contacted and the workaround wastes hours."
+    },
+    {
+      "label": "Workflow complaint 5",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "5"
+      },
+      "source_id": "workflow_005",
+      "source_type": "fixture",
+      "text": "The automation crashes every single time a duplicate contact arrives."
+    },
+    {
+      "label": "Workflow complaint 6",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "6"
+      },
+      "source_id": "workflow_006",
+      "source_type": "fixture",
+      "text": "We are losing customers because reminders fail without warning."
+    },
+    {
+      "label": "Workflow complaint 7",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "7"
+      },
+      "source_id": "workflow_007",
+      "source_type": "fixture",
+      "text": "I hate when a manual fix is needed for every export."
+    },
+    {
+      "label": "Workflow complaint 8",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "8"
+      },
+      "source_id": "workflow_008",
+      "source_type": "fixture",
+      "text": "The integration is hard to configure and there is still no good retry flow."
+    },
+    {
+      "label": "Workflow complaint 9",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "9"
+      },
+      "source_id": "workflow_009",
+      "source_type": "fixture",
+      "text": "I would pay for a reliable lead handoff because this is infuriating."
+    },
+    {
+      "label": "Workflow complaint 10",
+      "provenance": {
+        "fixture": "workflow_complaints.json",
+        "record": "10"
+      },
+      "source_id": "workflow_010",
+      "source_type": "fixture",
+      "text": "The API error means we cannot reconcile the daily report."
+    }
+  ]
+}

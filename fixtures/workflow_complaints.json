@@ -1,0 +1,12 @@
+[
+  {"source_id":"workflow_001","source_type":"fixture","label":"Workflow complaint 1","text":"The intake form is confusing and we have to repeatedly copy leads into the CRM.","provenance":{"fixture":"workflow_complaints.json","record":"1"}},
+  {"source_id":"workflow_002","source_type":"fixture","label":"Workflow complaint 2","text":"Our webhook fails and the team is forced to manually retry the same job.","provenance":{"fixture":"workflow_complaints.json","record":"2"}},
+  {"source_id":"workflow_003","source_type":"fixture","label":"Workflow complaint 3","text":"Follow-up takes too long when the spreadsheet is very slow.","provenance":{"fixture":"workflow_complaints.json","record":"3"}},
+  {"source_id":"workflow_004","source_type":"fixture","label":"Workflow complaint 4","text":"I cannot see which leads were contacted and the workaround wastes hours.","provenance":{"fixture":"workflow_complaints.json","record":"4"}},
+  {"source_id":"workflow_005","source_type":"fixture","label":"Workflow complaint 5","text":"The automation crashes every single time a duplicate contact arrives.","provenance":{"fixture":"workflow_complaints.json","record":"5"}},
+  {"source_id":"workflow_006","source_type":"fixture","label":"Workflow complaint 6","text":"We are losing customers because reminders fail without warning.","provenance":{"fixture":"workflow_complaints.json","record":"6"}},
+  {"source_id":"workflow_007","source_type":"fixture","label":"Workflow complaint 7","text":"I hate when a manual fix is needed for every export.","provenance":{"fixture":"workflow_complaints.json","record":"7"}},
+  {"source_id":"workflow_008","source_type":"fixture","label":"Workflow complaint 8","text":"The integration is hard to configure and there is still no good retry flow.","provenance":{"fixture":"workflow_complaints.json","record":"8"}},
+  {"source_id":"workflow_009","source_type":"fixture","label":"Workflow complaint 9","text":"I would pay for a reliable lead handoff because this is infuriating.","provenance":{"fixture":"workflow_complaints.json","record":"9"}},
+  {"source_id":"workflow_010","source_type":"fixture","label":"Workflow complaint 10","text":"The API error means we cannot reconcile the daily report.","provenance":{"fixture":"workflow_complaints.json","record":"10"}}
+]

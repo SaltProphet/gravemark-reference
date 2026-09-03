@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="A small deterministic Gravemark evidence console." />
+    <title>Gravemark Reference Console</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="masthead">
+        <div class="mark" aria-hidden="true">G</div>
+        <div><p class="kicker">GRAVEMARK / REFERENCE</p><h1>Evidence before interpretation.</h1><p class="lede">Run a small deterministic REAPER pass over curated source material, then inspect exactly what supports each candidate finding.</p></div>
+      </header>
+      <section class="controls" aria-labelledby="controls-title">
+        <div class="section-heading"><span class="eyebrow">01 / SOURCE</span><h2 id="controls-title">Choose a source</h2></div>
+        <div class="control-grid">
+          <label>Dataset<select id="dataset"></select></label>
+          <label class="paste-label">Or paste text<textarea id="paste" rows="5" placeholder="Paste a few sentences with a concrete pain signal…"></textarea></label>
+        </div>
+        <div class="action-row"><button id="run" class="primary">Run Gravemark <span>→</span></button><span id="state" class="state" role="status">Loading fixtures…</span></div>
+      </section>
+      <section id="results" class="results" aria-live="polite"><div class="empty"><span class="empty-number">02</span><h2>Candidate findings</h2><p>Run a fixture or paste source material to see deterministic evidence.</p></div></section>
+      <footer><span>DETECTED EVIDENCE <b>authoritative</b></span><span class="divider">/</span><span>LOCAL ANALYSIS <b>optional interpretation</b></span></footer>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {"source_id":"reliability_001","source_type":"fixture","label":"Reliability complaint 1","text":"The service crashes during exports and the error message is confusing.","provenance":{"fixture":"reliability_complaints.json","record":"1"}},
+  {"source_id":"reliability_002","source_type":"fixture","label":"Reliability complaint 2","text":"Reports are very slow and take too long to load.","provenance":{"fixture":"reliability_complaints.json","record":"2"}},
+  {"source_id":"reliability_003","source_type":"fixture","label":"Reliability complaint 3","text":"We cannot reproduce the failure and have to repeatedly restart the service.","provenance":{"fixture":"reliability_complaints.json","record":"3"}},
+  {"source_id":"reliability_004","source_type":"fixture","label":"Reliability complaint 4","text":"The workaround is a manual fix that wastes hours each week.","provenance":{"fixture":"reliability_complaints.json","record":"4"}},
+  {"source_id":"reliability_005","source_type":"fixture","label":"Reliability complaint 5","text":"I hate when alerts arrive after customers are already losing access.","provenance":{"fixture":"reliability_complaints.json","record":"5"}},
+  {"source_id":"reliability_006","source_type":"fixture","label":"Reliability complaint 6","text":"The dashboard is hard to use when an incident is active.","provenance":{"fixture":"reliability_complaints.json","record":"6"}},
+  {"source_id":"reliability_007","source_type":"fixture","label":"Reliability complaint 7","text":"Every single time we deploy, a health check fails.","provenance":{"fixture":"reliability_complaints.json","record":"7"}},
+  {"source_id":"reliability_008","source_type":"fixture","label":"Reliability complaint 8","text":"No one has solved the missing feedback problem in our support queue.","provenance":{"fixture":"reliability_complaints.json","record":"8"}},
+  {"source_id":"reliability_009","source_type":"fixture","label":"Reliability complaint 9","text":"The incident process is a nightmare and we are forced to manually assemble updates.","provenance":{"fixture":"reliability_complaints.json","record":"9"}},
+  {"source_id":"reliability_010","source_type":"fixture","label":"Reliability complaint 10","text":"I would pay for dependable exports because failed jobs cost the team time.","provenance":{"fixture":"reliability_complaints.json","record":"10"}}
+]
