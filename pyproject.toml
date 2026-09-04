@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "gravemark-reference"
 version = "0.1.0"
 description = "Small deterministic reference implementation of Gravemark's evidence pipeline"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.13"
 dependencies = ["spacy>=3.7,<4"]
 
 [project.optional-dependencies]
